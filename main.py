@@ -73,39 +73,39 @@
 # print(lenOfList)
 #####################################challenge 2#######################################################
 # Join the following list into a string, separating each item with a space. Use the appropriate list/string method, and display the result.
-word_list = ["Simple", "is", "better", "than", "complex."]
-print(' '.join(word_list))
-# Print the following text in uppercase, using the specific string method:
-text1 = "Especially in electronic communications, writing in all caps is equivalent to yelling."
-print(text1.upper())
-#substrings
-# Take every third character starting from the ninth to the end of the sentence, and print the result.
-text2 = "Never trust a computer you can't throw out a window"
-print(text2[9::3])
-# Reverses the position of all the characters in the following sentence and displays the result on the screen.
-text3 = "It's great to work with computers. They don't argue, they remember everything and they don't drink your beer"
-print(text3[::-1])
-# Extract the first word of the following sentence using slicing, and display it on the screen:
-text4 = "Controlling complexity is the essence of programming"
-all_words = text4.split()
-print(all_words)
-print(all_words[0])
-print("first word is: " +all_words[0])
+# word_list = ["Simple", "is", "better", "than", "complex."]
+# print(' '.join(word_list))
+# # Print the following text in uppercase, using the specific string method:
+# text1 = "Especially in electronic communications, writing in all caps is equivalent to yelling."
+# print(text1.upper())
+# #substrings
+# # Take every third character starting from the ninth to the end of the sentence, and print the result.
+# text2 = "Never trust a computer you can't throw out a window"
+# print(text2[9::3])
+# # Reverses the position of all the characters in the following sentence and displays the result on the screen.
+# text3 = "It's great to work with computers. They don't argue, they remember everything and they don't drink your beer"
+# print(text3[::-1])
+# # Extract the first word of the following sentence using slicing, and display it on the screen:
+# text4 = "Controlling complexity is the essence of programming"
+# all_words = text4.split()
+# print(all_words)
+# print(all_words[0])
+# print("first word is: " +all_words[0])
 
 
 # create a text input that asks for choice of food
-foodChoice1 = input("What is your first choice in food?")
-foodChoice2 = input("What is your second choice in food?")
-foodChoice3 = input("What is your third choice in food?")
-#create an empty list variable called food
-food = []
-# add 3 items from the user into the empty list
-food.append(foodChoice1)
-food.append(foodChoice2)
-food.append(foodChoice3)
+# foodChoice1 = input("What is your first choice in food?")
+# foodChoice2 = input("What is your second choice in food?")
+# foodChoice3 = input("What is your third choice in food?")
+# #create an empty list variable called food
+# food = []
+# # add 3 items from the user into the empty list
+# food.append(foodChoice1)
+# food.append(foodChoice2)
+# food.append(foodChoice3)
 
-#print out the menu list
-print(food)
+# #print out the menu list
+# print(food)
 ##############################################################################################################
 # what are tuples?
 # exactly the same thing as an array only it is immutable, once you define the tuple, you cannot change it or modify it
@@ -114,10 +114,11 @@ print(food)
 #example
 coordinates = (4, 5)
 # get the first element in the above tuple
+#print(coordinates[0])
 # lets make this a multidimensional array
-coordindates2 = [(4, 5), (6, 7), (80, 34)]
+coordinates2 = [(4, 5), (6, 7), (80, 34)]
 #get the second element of the second item in coordinates2
-
+print(coordinates2[1][1])
 # we use parentheses not [] in tuples
 my_tuple1 = (1, 2, 3, 4)
 # get the second item in the tuple1 above
