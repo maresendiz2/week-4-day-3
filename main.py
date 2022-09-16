@@ -76,20 +76,22 @@
 word_list = ["Simple", "is", "better", "than", "complex."]
 print(' '.join(word_list))
 # Print the following text in uppercase, using the specific string method:
-print(word_list.upper())
 text1 = "Especially in electronic communications, writing in all caps is equivalent to yelling."
-
+print(text1.upper())
 #substrings
 # Take every third character starting from the ninth to the end of the sentence, and print the result.
-
 text2 = "Never trust a computer you can't throw out a window"
-
+print(text2[9::3])
 # Reverses the position of all the characters in the following sentence and displays the result on the screen.
-
 text3 = "It's great to work with computers. They don't argue, they remember everything and they don't drink your beer"
-
+print(text3[::-1])
 # Extract the first word of the following sentence using slicing, and display it on the screen:
-"Controlling complexity is the essence of programming"
+text4 = "Controlling complexity is the essence of programming"
+all_words = text4.split()
+print(all_words)
+print(all_words[0])
+print("first word is: " +all_words[0])
+
 
 # create a text input that asks for choice of food
 #create an empty list variable called food
